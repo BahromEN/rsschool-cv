@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV-Ergashev Bakhrom</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="body-container">
+        <header>
+            <nav>            
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="main-photo">
+                    <img src="assets/img/my_photo.png" alt="My photo" width="300" height="300">
+                </div>
+                <div class="main-info">
+                    <div class="my-name">
+                        <h1>Bakhrom <span class="suname-header">Ergashev</span></h1>
+                        <h2>Web Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <aside>
+                <section id="contacts" class="my-contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Phone:<br>+998 (93) 602-99-43</li>
+                        <li>Telegram:<br><a href="https://t.me/bahromen">t.me/bahromen</a></li>
+                        <li>GitHub:<br><a href="https://github.com/BahromEN">github.com/BahromEN</a></li>
+                        <li>E-mail:<br>bahafromdsk@yandex.ru</li>
+                    </ul>
+                </section>
+                <section id="skills" class="skill-section">
+                    <h2>Skills</h2>
+                    <div class="skill-section-wrapper">
+                        <div>
+                            <h4><span class="mark">Programming skills</span></h4>
+                            <ul>
+                                <li>JavaScript</li>
+                                <li>HTML/CSS</li>
+                                <li>PHP</li>
+                                <li>SQLite</li>
+                                <li>Git/GitHub</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4><span class="mark">Foreign languages</span></h4>
+                            <ul>
+                                <li>English B1</li>
+                                <li>Chinese A2</li>
+                                <li>Russian C2</li>
+                                <li>Uzbek C2</li>
+                            </ul>    
+                        </div>
+                    </div>
+                </section>
+            </aside>
+            <div class="main-content">
+                <section id="about" class="about-section">
+                    <h2>About me</h2>
+                    <p>
+                        I am a <span class="mark">software engineer</span> at the "Almalyk MMC"
+                        with 2+ years of experience. At work, I spend part of my time doing web development.
+                        I am Actively engaged in self-education and sports. 
+                        Also I spend my free time for making interesting household items.
+                    </p>
+                </section>
+                <section id="education" class="education-section">
+                    <h2>Education</h2>
+                    <ul>
+                        <li><span class="mark">2016-2019 The master's degree</span><br> Harbin Institute of Technology, Harbin, China</li>
+                        <li><span class="mark">2012-2016 The bachelor's degree</span><br> National University of Science and Technology "MISIS", Moscow, Russia</li>
+                    </ul>
+                </section>
+                
+                <section id="code" class="code-section">
+                    <h2>Code Example</h2>
+                <pre>
+                    <code>
+<span class="code-header">// Replace each "zero" of the cell in the table to the dash</span>  
+
+for (var r = 0, n = table.rows.length; r &lt; n; r++) {
+    for (var c = 0, m = table.rows[r].cells.length; c &lt; m; c++) {
+        if (table.rows[r].cells[c].innerHTML === '0.0') {
+            table.rows[r].cells[c].innerHTML = '-';
+        }
+    }
+}
+                    </code>
+                </pre>
+                </section>
+                <section id="projects" class="projects-section">
+                    <h2>My Projects</h2>
+                    <ul>
+                        <li><a href="https://bahromen.github.io/rsschool-cv/"><span class="mark">CV#3. CV. Cross-Check</span></a> </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/BahromEN"><img src="assets/img/github_logo.png" alt="github" height="40"></a>
+            <span>&copy; 2021</span>
+            <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="logo_rsschool" width="80"></a> 
+        </footer>  
+    </div>
+</body>
+</html>
