@@ -147,8 +147,8 @@ section.projects-section ul li {
     padding-left: 10px;
   } 
 
-div.skill-section-wrapper ul li::marker, 
-section.education-section ul li::marker, 
+div.skill-section-wrapper ul li::marker,
+section.education-section ul li::marker,
 section.projects-section ul li::marker{
     content: "\00BB";
     color: #ffb01e;
